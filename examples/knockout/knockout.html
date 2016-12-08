@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Knockout Example</title>
+  </head>
+  <body id="bodyDiv">
+    <h1>Knockout</h1>
+    <div id="results"></div>
+    <div id="root">
+      <ul>
+        <!-- ko foreach: itemsArray -->
+          <li data-bind="attr: { id: $index }">hi</li>
+        <!-- /ko -->
+      </ul>
+    </div>
+    <script type='text/javascript' src='src/jquery-2.1.4.min.js'></script>
+    <script type='text/javascript' src='src/knockout.min.js'></script>
+    <script type='text/javascript' src='src/ko-index.js'></script>
+
+  </body>
+</html>

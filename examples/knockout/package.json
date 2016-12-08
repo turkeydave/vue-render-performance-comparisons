@@ -1,0 +1,13 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Dave K <kilmoyer@gmail.com>",
+  "private": true,
+  "scripts": {
+    "serve": "pushstate-server 7070"
+  },
+  "devDependencies": {
+    "pushstate-server": "^1.11.0"
+  }
+}
